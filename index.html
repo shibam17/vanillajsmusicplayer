@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Music</title>
+</head>
+<body>
+
+    <div id="bg">
+        <div id="blacklayer"></div>
+        <img src="./img/bg-1.jpg" alt="back1">
+    </div>
+    <div id="main">
+        <div id="image">
+            <img src="./img/bg-1.jpg" alt="front1">
+        </div>
+        <div id="player">
+            <div id="songTitle"></div>
+            <div id="button">                
+                <button id="prev"><i class="fas fa-backward"></i></button>
+                <button id="play"><i class="fas fa-play"></i></button>
+                <button id="next"><i class="fas fa-forward"></i></button>
+            </div>
+
+            <div id="seek-bar">
+                <div id="fill"></div>
+                <div id="handle"></div>
+            </div>
+            <div id="vol-control">
+                <div id="volup"><i class="fas fa-volume-up"></i></div>
+                <div id="volmute"><i class="fas fa-volume-mute"></i></div>
+                <div id="voldown"><i class="fas fa-volume-down"></i></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
